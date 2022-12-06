@@ -1,5 +1,7 @@
 # foodie
 
+[Demo](https://foodie-ruddy.vercel.app/)
+
 ### Your favorite recipe app!
 
 Foodie is a recipe searching and listing application. The user can get the details about the recipe by clicking to the recipe card and see instructions and ingredients.
