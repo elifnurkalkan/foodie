@@ -1,0 +1,24 @@
+.footer {
+  background-color: #043b1a;
+  color: #fff;
+  font-size: 1.1em;
+  height: 4rem;
+  overflow: hidden;
+  width: 150%;
+  margin-left: -25%;
+  margin-top: 3rem;
+}
+
+.madeBy {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.madeBy a {
+  color: white;
+}
+
+.footer a:hover,
+.madeBy a:hover {
+  color: rgb(176, 176, 176);
+}

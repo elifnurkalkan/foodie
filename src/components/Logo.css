@@ -1,0 +1,26 @@
+.logo h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 1.5rem;
+  color: forestgreen;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-right: 1rem;
+}
+
+.logoPart {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.logoIcon {
+  justify-content: center;
+  float: inline-start;
+  justify-content: space-between;
+  margin-left: 1rem;
+}

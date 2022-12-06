@@ -1,0 +1,89 @@
+.info button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: rgb(216, 67, 8);
+  color: white;
+  border-radius: 5px;
+  margin: 0.5rem;
+  margin-bottom: 3rem;
+  margin-left: 0;
+}
+
+.info button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(196, 50, 13);
+  border: 1px solid rgb(158, 52, 3);
+  transition: 3s;
+  cursor: pointer;
+}
+
+.instructionDetail h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+ul li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+.detailWrapper {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+}
+
+h2 {
+  color: chocolate;
+}
+
+.detailWrapper img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 2rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(35, 34, 34, 0.8);
+  margin-top: 2rem;
+}
+
+.info {
+  margin-left: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .info button {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(216, 67, 8);
+    color: white;
+    border-radius: 5px;
+    margin: 2rem;
+    margin-bottom: 3rem;
+    margin-left: -1rem;
+    margin-top: 3rem;
+  }
+
+  .detailWrapper {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .instructionDetail h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin-left: -3rem;
+  }
+
+  ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-left: -3rem;
+  }
+}
